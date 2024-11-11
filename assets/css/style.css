@@ -32,13 +32,14 @@ header {
 header a {
     text-decoration: none;
     color: inherit;
-    letter-spacing: 2px;
-    color: #252525;
+    
 }
 
 h1 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
 }
 
 #menu {
@@ -95,7 +96,7 @@ footer {
 @media screen and (min-width: 768px){
     nav {
         display: block;
-        position:relative;
+        position: relative;
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
@@ -118,5 +119,11 @@ footer {
     }
     main {
         margin-top: 79px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 1px solid #3a3a3a;
     }
 }
