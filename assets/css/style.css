@@ -123,8 +123,16 @@ main {
     padding: 0 5%;
     color: #3a3a3a;
 }
-/* Media query for tablet */
 
+#reasons {
+    margin: 20px auto;
+    width: 90%;
+}
+#reasons > h2 {
+    font-size: 280%;
+    margin-bottom: 20px;
+    text-align: center;
+}
 
 /* Media query: tablets and larger (768px and up) */
 
