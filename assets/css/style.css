@@ -128,12 +128,38 @@ main {
     margin: 20px auto;
     width: 90%;
 }
-#reasons > h2 {
+#reasons h2 {
     font-size: 280%;
     margin-bottom: 20px;
     text-align: center;
 }
 
+#benefits {
+    line-height: 20px;
+}
+#benefits-physical, #benefits-mental {
+    margin-bottom: 20px;
+    line-height: 20px;
+}
+
+#benefits p {
+
+    padding: 0 20px;
+
+}
+
+
+#benefits hr {
+
+    border-top: 1px solid #3a3a3a;
+
+    margin: 5px 0;
+
+}
+
+#benefits-physical h3, #benefits-mental h3{
+    display: inline-flex;
+}
 /* Media query: tablets and larger (768px and up) */
 
 @media screen and (min-width: 768px) {
